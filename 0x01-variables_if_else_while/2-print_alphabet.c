@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
+.
 /**
  * main - Entry point
  *
@@ -7,22 +9,10 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+	char low;
 
-	for (i = 48; i < 57; i++)
-	{
-		for (j = i + 1; j <= 57; j++)
-		{
-			putchar(i);
-			putchar(j);
-			if (j == 57 && i == 56)
-				break;
-			putchar(44);
-			putchar(32);
-
-		}
-	}
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
 	putchar('\n');
 	return (0);
 }
