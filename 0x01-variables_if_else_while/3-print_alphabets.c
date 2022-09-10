@@ -3,7 +3,7 @@
 /**
  * main - This program prints a-z to std output
  *
- * Return: Exit status is zero if successful
+ * Return: Exit status is zero if successfully
  */
 int main(void)
 {
