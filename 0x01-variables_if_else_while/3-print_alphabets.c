@@ -2,8 +2,7 @@
 
 /**
  * main - This program prints a-z to std output
- *
- * Return: Exit status is zero if successfully
+ * Return: Exit status is zero if successful
  */
 int main(void)
 {
@@ -14,7 +13,7 @@ int main(void)
 		putchar(i);
 	}
 	for (i = 65; i <= 90; i++)
-	}
+	{
 		putchar(i);
 	} putchar('\n');
 	return (0);
