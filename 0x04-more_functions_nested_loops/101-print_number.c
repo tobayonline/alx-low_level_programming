@@ -9,7 +9,7 @@ void print(unsigned int d);
  * Return: void
  */
 void print_number(int n)
-i{
+{
 	if (n < 0)
 	{
 		_putchar('-');
@@ -18,7 +18,8 @@ i{
 	print(n);
 }
 
-/** print - subfunction to print recursively
+/**
+ * print - subfunction to print recursively
  * @d: variable to be printed
  */
 void print(unsigned int d)
