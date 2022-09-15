@@ -21,7 +21,7 @@ void print_diagonal(int n)
 			for (j = 0; j < n; j++)
 			{
 				if (i == j)
-					_putchar('\\');
+					_putchar('\');
 			else
 					_putchar(' ');
 			}
