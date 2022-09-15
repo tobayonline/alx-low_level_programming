@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - Prints # square of size size
- * @n: specifies how many times printed
+ * print_square - function that checks for uppercase character.
+ * @size: the int for the paramaters of my function
  *
  * Return: Null
  */
