@@ -20,7 +20,6 @@ int _atoi(char *str)
 		if (str[i + 1] == '\0')
 			return (0);
 	}
-	
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		if (base > INT_MAX / 10 || (base == INT_MAX / 10 && str[i] - '0' > 7))
@@ -32,6 +31,5 @@ int _atoi(char *str)
 		}
 		base = 10 * base + (str[i++] - '0');
 	}
-
 	return (base * sign);
 }
