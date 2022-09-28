@@ -18,24 +18,13 @@ int _sqrt(int n, int y)
 		return (_sqrt(n, y + 1));
 }
 
-
-
 /**
-
  * _sqrt_recursion - Returns to the main program in _sqrt()
-
  * @n: the number
-
  *
-
  * Return: An int
-
  */
-
 int _sqrt_recursion(int n)
-
 {
-
 	return (_sqrt(n, 1));
-
 }
