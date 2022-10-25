@@ -1,0 +1,3 @@
+git add .
+git commit -m 'more singly linked lists'
+git push
